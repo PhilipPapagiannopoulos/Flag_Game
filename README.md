@@ -1,4 +1,4 @@
-## 🇺🇳 Flags – Turtle Graphics Guessing Game
+## Flag_game – Turtle Graphics Guessing Game
 
 **Flags** is a fun and educational Python game built using the **Turtle graphics library**. The game displays a randomly selected national flag on the screen, and the player must correctly guess which country the flag belongs to.
 

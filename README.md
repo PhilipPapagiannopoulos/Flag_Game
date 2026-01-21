@@ -1,49 +1,34 @@
-## Flag_game – Turtle Graphics Guessing Game
+## Flag Game (Python)
 
-**Flags** is a fun and educational Python game built using the **Turtle graphics library**. The game displays a randomly selected national flag on the screen, and the player must correctly guess which country the flag belongs to.
+This project is an interactive **Flag Game** built using **Python** and the **turtle graphics library**. Players are shown randomly drawn flags and must guess the country each flag represents.
 
-### 🎮 How the Game Works
+The player starts with **3 lives**, and earns **points** for each correct guess. If the player guesses incorrectly, they lose a life. The game continues until the player either runs out of lives or correctly identifies all the flags.
 
-* A flag is drawn using Turtle graphics.
-* The player types the name of the country.
-* Each correct answer earns **1 point**.
-* The player starts with **3 lives**.
-* A wrong guess costs **one life**.
-* The game ends when:
+### How the Game Works
 
-  * All flags are guessed correctly 🎉
-  * OR the player runs out of lives ❌
+1. A flag is drawn on the screen using the **turtle** module.
+2. The player types in the name of the country they think the flag belongs to.
+3. If the guess is correct, the player earns a point, and that flag is removed from the game.
+4. If the guess is incorrect, the player loses a life.
+5. The game ends when the player runs out of lives or identifies all flags correctly. Final points and remaining lives are displayed.
 
-### 🌍 Included Flags
+### Features
 
-The game currently includes flags from:
+* Visual flag drawing with Python **turtle graphics**
+* Supports multiple countries (India, Japan, Russia, France, Germany, Turkey, Morocco, Laos, Sweden, French Guiana, Finland, Gabon)
+* Life-based system with **3 lives**
+* Score tracking for correct guesses
+* Interactive and educational gameplay to learn country flags
 
-* India
-* Japan
-* Russia
-* France
-* Germany
-* Sweden
-* Finland
-* Turkey
-* Morocco
-* Laos
-* Gabon
-* French Guiana
+### Technologies Used
 
-### 🛠 Technologies Used
+* Python
+* `turtle` module
+* `random` module
 
-* **Python**
-* **turtle** (for drawing flags)
-* **random** (for flag selection)
-
-### 🎯 Purpose
-
-This project helps players:
-
-* Learn to recognize world flags
-* Improve general knowledge
-* Practice Python functions, loops, and conditionals
+This project is perfect for beginners to learn **Python graphics**, **loops**, **conditional statements**, and **interactive input handling**, while also learning about world flags.
 
 ---
+
+
 
